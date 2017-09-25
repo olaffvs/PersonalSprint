@@ -1,0 +1,8 @@
+@mixin flex {
+    // write the css here
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
