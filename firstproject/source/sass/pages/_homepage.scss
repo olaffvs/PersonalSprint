@@ -12,23 +12,26 @@
             margin: auto;
             margin-top: 4%;
             width: 40%;
-            padding: 10px;
+            padding: 2px;
             color: $white;
         }
     }
 
     .header-title-up {
         font-size: 2.5em;
-        margin-left: 25%;
+        margin-left: 22%;
+        font-weight: bold;
     }
 
     .header-title-down {
         font-size: 2.5em;
-        margin-left: 40%;
+        margin-left: 43%;
+        font-weight: bold;
+        margin-top: -10%;
     }
 
     .header-subtitle {
-        font-size: 1.3em;
+        font-size: 1em;
         text-align: center
     }
 
@@ -39,7 +42,6 @@
         display: inline-block;
         overflow: hidden;            
         margin-left: 0;
-        
 
         &__link {
             color: $white;
@@ -52,12 +54,15 @@
             list-style-type: none;
             display: flex;
             align-content: flex-start;
-            margin-left: -2.5%;
+            margin-left: -3.5%;
     
             &-item {
                 background-color: $navbar-gray;
                 padding: 2% 2% 2% 2%;
-                margin-left: 0;
+
+                &:first-child {
+                    padding-left: 70px;
+                }
             }
         }
 
@@ -66,43 +71,45 @@
             margin-left: 61%;
             color: $white;
             padding: 2%;
-            width: 200px;
+            width: 150px;
         }
     }
 
-
-    
-
-    
     .content {
         margin: 0 auto;
 
         &__titles {
-            margin-top: 10%;
+            margin-top: 5%;
             text-align: center;
             font-size: 1.5em;
             font-weight: bold;
         }
 
+        .form-title {
+            margin-top: 10%;
+        }
+
         &__introduction-content-left {
             float: left;
-            width: 700px;
-            margin-left: 6%;
+            width: 500px;
+            margin-left: 9%;
             margin-right: 25px;
+            font-size: 16px;
         }
 
         &__introduction-content-right {
             float: left;
             margin-top: 4%;
-            width: 700px;
+            width: 500px;
             line-height: 250%;
             word-spacing: 70px;
             text-align: center;
+            font-size: 16px;
         }
 
         &__subtitles-box {
             margin: auto;
-            margin-top: 30%;
+            margin-top: 35%;
             width: 88%;
             height: 500px;
             padding: 10px;
@@ -114,6 +121,8 @@
             float: left;
             background-color: $gray;
             font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 3%;
         }
 
         .column-center {
@@ -133,7 +142,7 @@
         }
 
         &__subtitles-box-title {
-            margin-top: 5%;
+            margin-top: 2%;
             text-align: center;
             font-size: 1.5em;
             font-weight: bold;
@@ -141,13 +150,13 @@
 
         &__col-text {
             margin-left: 7%;
-            line-height: 630px;
+            line-height: 670px;
         }
 
         &__form {
             margin: auto;
             margin-top: 2%;
-            width: 88%;
+            width: 70%;
             height: 50px;
             color: $white;
             background-color: $div-box;
@@ -156,7 +165,7 @@
         &__form-textarea {
             margin: auto;
             margin-top: 2%;
-            width: 88%;
+            width: 70%;
             height: 350px;
             color: $white;
             background-color: $div-box;
@@ -165,7 +174,7 @@
         &__form-button {
             margin: auto;
             margin-top: 2%;
-            margin-left: 79%;
+            margin-left: 70%;
             width: 15%;
             height: 50px;
             color: $white;

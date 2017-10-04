@@ -653,16 +653,19 @@ h6 {
       margin: auto;
       margin-top: 4%;
       width: 40%;
-      padding: 10px;
+      padding: 2px;
       color: #fff; }
   .homepage .header-title-up {
     font-size: 2.5em;
-    margin-left: 25%; }
+    margin-left: 22%;
+    font-weight: bold; }
   .homepage .header-title-down {
     font-size: 2.5em;
-    margin-left: 40%; }
+    margin-left: 43%;
+    font-weight: bold;
+    margin-top: -10%; }
   .homepage .header-subtitle {
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: center; }
   .homepage .navigation {
     margin-top: 4%;
@@ -684,39 +687,44 @@ h6 {
       list-style-type: none;
       display: flex;
       align-content: flex-start;
-      margin-left: -2.5%; }
+      margin-left: -3.5%; }
       .homepage .navigation__list-item {
         background-color: #1B1B1B;
-        padding: 2% 2% 2% 2%;
-        margin-left: 0; }
+        padding: 2% 2% 2% 2%; }
+        .homepage .navigation__list-item:first-child {
+          padding-left: 70px; }
     .homepage .navigation .right {
       background-color: #1B1B1B;
       margin-left: 61%;
       color: #fff;
       padding: 2%;
-      width: 200px; }
+      width: 150px; }
   .homepage .content {
     margin: 0 auto; }
     .homepage .content__titles {
-      margin-top: 10%;
+      margin-top: 5%;
       text-align: center;
       font-size: 1.5em;
       font-weight: bold; }
+    .homepage .content .form-title {
+      margin-top: 10%; }
     .homepage .content__introduction-content-left {
       float: left;
-      width: 700px;
-      margin-left: 6%;
-      margin-right: 25px; }
+      width: 500px;
+      margin-left: 9%;
+      margin-right: 25px;
+      font-size: 16px; }
     .homepage .content__introduction-content-right {
       float: left;
       margin-top: 4%;
-      width: 700px;
+      width: 500px;
       line-height: 250%;
       word-spacing: 70px;
-      text-align: center; }
+      text-align: center;
+      font-size: 16px; }
     .homepage .content__subtitles-box {
       margin: auto;
-      margin-top: 30%;
+      margin-top: 35%;
       width: 88%;
       height: 500px;
       padding: 10px;
@@ -725,7 +733,9 @@ h6 {
     .homepage .content__columns {
       float: left;
       background-color: #494949;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-top: 3%; }
     .homepage .content .column-center {
       width: 30%;
       height: 440px;
@@ -737,31 +747,31 @@ h6 {
     .homepage .content .column-left {
       margin-left: 8%; }
     .homepage .content__subtitles-box-title {
-      margin-top: 5%;
+      margin-top: 2%;
       text-align: center;
       font-size: 1.5em;
       font-weight: bold; }
     .homepage .content__col-text {
       margin-left: 7%;
-      line-height: 630px; }
+      line-height: 670px; }
     .homepage .content__form {
       margin: auto;
       margin-top: 2%;
-      width: 88%;
+      width: 70%;
       height: 50px;
       color: #fff;
       background-color: #B3B3B3; }
     .homepage .content__form-textarea {
       margin: auto;
       margin-top: 2%;
-      width: 88%;
+      width: 70%;
       height: 350px;
       color: #fff;
       background-color: #B3B3B3; }
     .homepage .content__form-button {
       margin: auto;
       margin-top: 2%;
-      margin-left: 79%;
+      margin-left: 70%;
       width: 15%;
       height: 50px;
       color: #fff;
